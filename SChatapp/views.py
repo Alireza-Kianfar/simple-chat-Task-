@@ -28,6 +28,5 @@ class ChatAPIView(APIView):
 
 
 def chat_page(request):
-
     messages = Message.objects.all().order_by('created_at')
     return render(request, 'index1.html', {'messages': messages})
