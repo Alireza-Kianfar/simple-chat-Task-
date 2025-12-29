@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --tg-blue: #54a9eb;           /* رنگ اصلی تلگرام */
+            --tg-blue: #54a9eb;
             --tg-blue-dark: #3d8bd1;
             --tg-user-bg: #54a9eb;
             --tg-bot-bg: #ffffff;
@@ -95,7 +95,7 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
-        /* پیام کاربر - آبی تلگرام */
+
         .user {
             align-self: flex-end;
             background: var(--tg-user-bg);
@@ -104,7 +104,7 @@
             margin-inline-start: 40px;
         }
 
-        /* پیام بات - سفید */
+
         .bot {
             align-self: flex-start;
             background: var(--tg-bot-bg);
@@ -138,7 +138,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* تایپینگ تلگرام‌مانند */
+
         .typing-dots span {
             width: 8px;
             height: 8px;
@@ -157,7 +157,7 @@
             30% { transform: translateY(-8px); opacity: 1; }
         }
 
-        /* ورودی پایین — دقیق مثل تلگرام */
+
         .chat-input {
             padding: 10px 12px calc(10px + var(--safe-bottom));
             background: rgba(20, 15, 60, 0.85);
@@ -192,7 +192,7 @@
             color: #999;
         }
 
-        /* دکمه‌های اضافی (میکروفون/کلیپ) */
+
         .input-icons {
             display: flex;
             align-items: center;
@@ -201,7 +201,7 @@
             font-size: 1.4rem;
         }
 
-        /* دکمه ارسال — دقیق مثل تلگرام */
+
         #sendBtn {
     width: 48px;
     height: 48px;
@@ -217,7 +217,7 @@
     box-shadow: 0 4px 12px rgba(84, 169, 235, 0.4);
     font-size: 1.6rem;
     font-weight: bold;
-    /* حذف چرخش هواپیما */
+
 }
 
 #sendBtn:hover {
@@ -370,7 +370,7 @@
             animate();
         }
 
-        // اسکریپت چت — دقیقاً همون قبلی بدون هیچ تغییری
+
         const input = document.getElementById('messageInput');
         const sendBtn = document.getElementById('sendBtn');
         const messagesContainer = document.getElementById('messages');
